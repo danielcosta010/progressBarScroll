@@ -1,21 +1,23 @@
 body {
+  background: rgb(67, 62, 62);
   margin: 0;
   padding: 0;
   height: 10000px;
 }
 .container {
- background-color: black;
  width: 100%;
  position: fixed;
- top: 0;
+ top: 5px;
 }
 .progress__container {
-  background: red;
-  height: 5px;
-  width: 100%;
+  background: rgba(249, 244, 244, 0.848);
+  height: 15px;
+  width: 100%; 
 }
 .progress__container-bar {
-  background: linear-gradient(to Right, #FAD586, #D6EFC7, #96BB7C, #184D47);
+  background: rgb(10, 10, 167);
   width: 0%;
-  height: 4px;
+  height: 15px;
+  border-radius: 0 5px 5px 0;
 }
+
